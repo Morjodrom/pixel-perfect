@@ -1,0 +1,35 @@
+html,
+body {
+	height: auto !important;
+}
+body {
+	position: relative;
+}
+.tablebodytext {
+	display: none;
+}
+
+.testing-mask {
+	display: none;
+	content: '';
+	min-height: 100%;
+	margin: auto;
+	opacity: .7;
+	position: absolute;
+	right: 0;
+	left: 62px;
+	bottom: 0;
+	top: -149px;
+	z-index: 9999;
+}
+.testing-toggler {
+	display: block;
+	position: fixed;
+	background: #000;
+	color: #fff;
+	border: 2px double #fff;
+	bottom: 410px;
+	left: 50px;
+	z-index: 99999;
+}
+
